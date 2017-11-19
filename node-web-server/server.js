@@ -1,3 +1,46 @@
 const express = require ('express');
+const hbs = require ('hbs');
+const fs = require('fs');
 
 var app = express();
+
+hbs.registerPartials(__dirname+'/views/partials');
+app.set('view engine', 'hbs');
+app.use(express.static(__dirname+'/public'));
+hbs.registerHelper('getCurrentYear', () => {
+    return new Date().getFullYear();
+});
+
+app.get('/', (req, res) => {
+    // res.send('Hello Express');
+
+    res.render('home.hbs', {
+        pageTitle : 'Home Page',
+        welcomeMessage : 'Welcome to my website'
+
+    });
+    // res.send({
+    //     name : 'kkd',
+    //     age : 25,
+    //     likes : [
+    //         'biking',
+    //         'hiking'
+    //     ]
+    // });
+});
+
+app.get('/about', (req, res) => {
+        // res.send('About us');
+        res.render('about.hbs',{
+            pageTitle : 'about',
+        });
+    });
+
+app.get('/bad', (req, res) => {
+    res.send({
+        errorMessage : 'Unable to handle request'
+    });
+});
+app.listen(3000, () => {
+    console.log('Server is now up');
+});
