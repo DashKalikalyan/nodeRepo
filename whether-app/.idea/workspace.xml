@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad7e8f0f-6ab9-4fa9-9739-42dab16bfdcc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../note-app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../weather-app/.gitignore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node-web-server/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../node-web-server/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../node-web-server/server.js" afterPath="$PROJECT_DIR$/../node-web-server/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../notes-node/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../notes-node/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -201,12 +200,12 @@
       <workItem from="1511006510580" duration="132000" />
       <workItem from="1511039074824" duration="19493000" />
       <workItem from="1511130890103" duration="123000" />
-      <workItem from="1511134631465" duration="29000" />
+      <workItem from="1511134631465" duration="219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32202000" />
+    <option name="totallyTimeSpent" value="32392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
